@@ -106,7 +106,31 @@ body {
             <button class="botao">Quem somos?</button>
         </div>.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 5px solid var(--azul marinho);
 }
+<button class="botao .ativo.">Cursos na Alura</button>
+<button class="botao">Criar projetos em Javascript main.js</button>
+<button class="botao">Criar um portfolio</button>
+<button class="botao">Atualizar meu currículo</button>
+<script src="const"></script>
+const botoes = document.querySelectorAll(".botao.");
+Nodelist(4)
+0:button.botao.ativo
+1:button.botao
+2:button.botao
+3:button.botao
+length: 4
+for((let i=0; i <  botoes.length; i++){
+ const.log(i);
+}
+0                             main.js:4
+1                             main.js:4     
+2                             main.js:4
+3                             main.js:4
+botoes[i].onclick = function(){
+    
+    botoes[i].classList.add("ativo");
+}
+
 
 
