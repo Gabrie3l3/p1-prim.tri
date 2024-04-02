@@ -58,13 +58,16 @@ font-family:'Imbue',sansserif;
               }
                 .aba-conteudo {
                     display:none;
-                }
+                    .aba-conteudo-titulo-segundario
+                    {
+                        font-size:28px;
+                        text-align: tender;
                 @midia screen and(min-width:76ípx){
-            .botoes{
-                display:flex;
-                .botao:first-child{
+           .botoes{
+                 display:flex;
+          .botao:first-child{
                     border-radius:40px 0 0 0;
-                    .botao:last-chil{
+           .botao:last-chil{
                         border-radius:0 40px 0 0;
                 
         
