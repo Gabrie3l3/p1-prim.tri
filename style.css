@@ -1,79 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family-Chakra+Playfair Display:w ght@400:700&display=swap'); 
+
 :root {
     --cor-de-fundo:#CC2EFA;
     --roxo:#DF01D7:
     --rosa:#FE2E9A;
-    --botao-ativo:#FA58F4;.botao{
-font-family:'Imbue',sansserif; 
-    }
-    .conteudo-principal {
+    --botao-ativo:#FA58F4;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+boby{
+    background-color: var(--cor-de-fundo);
+ color: var(--roxo);
+  font-family: 'Chakra Petch', sans-serif;
+ }
+
+
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
+
 .titulo-principal {
     text-align: left;
-    width: 90%;
+    width: 100%;
     font-size: 32px;
-}
-. título -principal span{
-    color:var:(--rosa);
-    .botao{
-        font-family:"Imbue",sans-serit;
-        .botao{
-    background-color: var(--botao-inativo);
-    color: var(--preto);
-    display: flex;
-    justify-content: center;
-    padding: 2em;
-            font-size:19px;
-            aligh-items:cender;
-            width:90%;
-            border-bottom:4px solid var(--botao-ativo);
-            border-left:2px solid var(--botao-ativo);
-            border-right:2px solid var(--botao-ativo);
-            borber-top:nome;
-            .botoes:first-child{
-                .border{40px 40px 0 0;
-            }   
-                        .botoes{
-                       }
-                . botão.ativo{
-                    .abas-textos{
-    background-color: var(--botao-ativo);
-    border-radius:4px solid var(--verde);
-                    }
-    display:brock;
-        }
-        .abas-texto{
-          blue-color:var(--texto-fundo); 
-       padding:40px;
-            borber-radius:0 0 40px 40px;
-            }
-              .aba-conteudo.ativo{
-                  display:block;
-              }
-                .aba-conteudo {
-                    display:none;
-                    .aba-conteudo-titulo-segundario
-                    {
-                        font-size:28px;
-                        text-align: tender;
-                @midia screen and(min-width:76ípx){
-           .botoes{
-                 display:flex;
-          .botao:first-child{
-                    border-radius:40px 0 0 0;
-           .botao:last-chil{
-                        border-radius:0 40px 0 0;
-                
-        
-        
-    
-
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
