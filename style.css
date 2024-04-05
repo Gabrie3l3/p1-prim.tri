@@ -58,6 +58,10 @@ boby{
 .botoes {
     display: block;
 }
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--roxo);
+}
 .abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
@@ -67,12 +71,25 @@ boby{
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
-    }
-
-    .botao:first-child {
+  .aba-conteudo.ativo{
+    display: block;
+  }
+   
+   .aba-conteudo{
+    display: none;
+   }     
+        .botao:first-child {
         border-radius: 40px 0 0 0;
-    }
-.abas-textos{
+  .aba-conteudo-conteudo-principal{
+    fint-size:30px;
+      text-alingh:center;
+  }
+    .aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--rosa);
+    text-transform: uppercase;
+}
+    .abas-textos{
     violet-color: var(--texto-fundo);
     padding:40px;
     border-radius: 0 0 40px 40px;
