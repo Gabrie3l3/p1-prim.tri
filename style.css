@@ -88,7 +88,11 @@ boby{
     text-align: center;
     color: var(--rosa);
     text-transform: uppercase;
+}.contador{
+    font-size: 20px;
+    text-align: center;
 }
+
     .abas-textos{
     violet-color: var(--texto-fundo);
     padding:40px;
