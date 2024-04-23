@@ -6,7 +6,7 @@ const textos = document.querySelectorAll(".aba-conteudo");
 console.log(botoes);
 for(let i=0;i <botoes.length;i++){
     botoes[i].onclick = function(){
-       
+    }  
    for(let j=0;<botoes.length;j++)     
   
        textos[j]. classlist.remove("ativo");
@@ -22,6 +22,7 @@ const tempoObjetivo4=new date("2024-11-02-01T00-08:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
     function calculaTempo(tempoObjetivo) {
+    }
   let tempoAtual = new Date();
   let tempoFinal = tempoObjetivo - tempoAtual;
   let segundos =math.floor(tempoFinal / 1000);
