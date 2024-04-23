@@ -4,10 +4,11 @@ const textos = document.querySelectorAll(".aba-conteudo");
 
 //Código omitido
 console.log(botoes);
-for(let i=0;i <botoes.length;i++){
+for(let i=0;i <botoes.length;i++); 
+{
     botoes[i].onclick = function(){
     }  
-   for(let j=0;<botoes.length;j++)     
+   for(let j=0;<botoes.length;j++);   
   
        textos[j]. classlist.remove("ativo");
  texto[j].classlist.add("ativo");    
@@ -33,9 +34,10 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
     segundos%=60;
     minutos%=60;
     horas%=24;
-        if (tempoFinal > 0){
+        if (tempoFinal > 0);
+        {
     return[dias,horas, minutos, segundos];
-} else {
+else {
     return "[0,0,0,0];
         }
         
